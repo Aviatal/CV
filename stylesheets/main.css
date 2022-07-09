@@ -1,0 +1,161 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 149, 149);
+}
+#conteiner
+{
+    width: 1300px;
+    margin: 2% auto;
+    background-color: rgb(237, 232, 226);
+}
+div#name
+{
+    letter-spacing: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 35px;
+    color: teal;
+}
+hr.gradient
+{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+hr.white
+{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+div#left-column
+{
+    flex: 1 1 30%;
+    background-color: rgb(41, 59, 93);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+div#right-column
+{
+    flex: 9 3 70%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+}
+div#content
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    color: white;
+}
+div#left-column div#profile-box
+{
+    width: 70%;
+    margin-top: 10%;
+    text-align: center;
+}
+div#left-column img
+{
+    border-radius: 50%;
+    width: 80%;
+}
+div#left-column div#contact-box
+{
+    margin-top: 5%;
+}
+div#left-column h1
+{
+    letter-spacing: 5px;
+    color: teal;
+    font-size: 30px;
+}
+div#left-column ul li
+{
+    margin-left: -60px;
+    font-size: 20px;
+}
+div#contact-box ul li.tel
+{
+    list-style-type: none;
+    list-style-image: url(../images/telephone.png);
+}
+div#contact-box ul li.city
+{
+    list-style-type: none;
+    list-style-image: url(../images/city.png);
+}
+div#contact-box ul li.mail
+{
+    list-style-type: none;
+    list-style-image: url(../images/mail.png);
+}
+div#contact-box ul a:visited li , div#contact-box ul a:link li 
+{
+    text-decoration: none;
+    color: white;
+}
+div#contact-box ul a li.git
+{
+    list-style-type: none;
+    list-style-image: url(../images/git.png);
+}
+div#contact-box ul a li.git:hover, div#contact-box ul a li.git :hover
+{
+    color: #00ffff;
+    list-style-image: url(../images/git-hover.png);
+}
+ul.skills li
+{
+    margin-top: 5px;
+}
+div#left-column ul li
+{
+    list-style-type: none;
+}
+div#left-column ul li:hover
+{
+    color: #00ffff;
+    list-style-type: none;
+}
+div#left-column ul.hobby li
+{
+    margin-left: -130px;
+}
+div#right-column div
+{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+}
+div#right-column h1
+{
+    border-bottom: 2px solid teal;
+    display: inline-block;
+}
+div#right-column p
+{
+    margin-top: 0px;
+}
+div.education ul
+{
+    list-style-type: circle;
+}
+div.rodo p
+{
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    margin-right: 40px;
+
+}
