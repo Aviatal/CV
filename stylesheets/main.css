@@ -147,7 +147,7 @@ div#right-column p
 {
     margin-top: 0px;
 }
-div.education ul
+div.education ul, div.courses ul
 {
     list-style-type: circle;
 }
