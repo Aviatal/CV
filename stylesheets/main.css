@@ -58,6 +58,7 @@ div#content
     flex-wrap: nowrap;
     align-items: stretch;
     color: white;
+    flex-direction: row;
 }
 div#left-column div#profile-box
 {
